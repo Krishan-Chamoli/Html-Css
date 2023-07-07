@@ -1,0 +1,23 @@
+.block{
+    color: aqua;
+    background-color: black;
+    display: block;
+    height: 50px;
+    
+}
+
+
+.inline{
+    color: red;
+    background-color: mediumspringgreen;
+    display: inline;
+    height: 50px;
+}
+
+.inline-block{
+    color: yellow;
+    background-color: maroon;
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+}

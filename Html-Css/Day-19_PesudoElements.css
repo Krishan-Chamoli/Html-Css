@@ -1,0 +1,47 @@
+.child:first-child{
+    color: aqua;
+    background-color: black;
+}
+
+/* .child:nth-child(odd){
+    color: aqua;
+    background-color: black;
+} */
+
+.child:last-child{
+    color: aqua;
+    background-color: black;
+}
+
+
+
+/* .color{
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 60%;
+    position: relative;
+}
+
+.color::before{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    content: " ";
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.color::after{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    content: " ";
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+} */

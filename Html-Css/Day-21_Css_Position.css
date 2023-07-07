@@ -1,0 +1,38 @@
+/* .static{
+    position: static;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+} */
+
+/* .relative{
+    position: relative;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+} */
+
+.relative{
+    position: relative;
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+}
+
+.absolute{
+    position: relative;
+    /* background-color: red; */
+    /* height: 30px; */
+    /* width: 30px; */
+    border: 4px dotted rebeccapurple;
+    width: 100px;
+    top: 128px;
+    left: 190px;
+
+}
+

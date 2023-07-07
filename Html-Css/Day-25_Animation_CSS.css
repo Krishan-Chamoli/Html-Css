@@ -1,0 +1,42 @@
+.box{
+    background-color: black;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+.circle{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    animation-name: krishan;
+    animation-duration: 5s ;
+    /* animation-direction: forward; */
+}
+
+/* @keyframes krishan{
+    from{background-color: blue;}
+    to {background-color: yellow;}
+} */
+
+@keyframes krishan{
+    25%{
+                         /* (x) ,(y) */
+        transform:translate(550px,0px) ;
+        background-color: burlywood
+        /* background-color: yellow */
+    }
+    50%{
+        transform: translate(550px,300px);
+    }
+
+    75%{
+        transform: translate(0px,300px);
+    }
+    80%{
+        transform: translate(0px,0px);
+    }
+}

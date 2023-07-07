@@ -1,0 +1,9 @@
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    color: aqua;
+    background-color: black;
+    top: 0;
+    border: 2px solid red;
+    display: inline;
+}
